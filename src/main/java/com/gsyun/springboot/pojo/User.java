@@ -30,6 +30,9 @@ public class User {
     @JsonIgnore
     private String password;
 
+    public User() {
+    }
+
     public User(String name, short age, Date birthday, String desc, String account, String password) {
         this.name = name;
         this.age = age;
